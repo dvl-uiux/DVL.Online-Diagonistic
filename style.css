@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4da;
+}
+.header {
+    background-color: #ab0606ce;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    overflow: hidden;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #575757;
+}
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+.toolbar .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.toolbar .button:hover {
+    background-color: #0056b3;
+}
+.content {
+    padding: 20px;
+}
+.center {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.center h2 {
+    color: #333;
+    margin-top: 0;
+}
+.center p {
+    line-height: 1.6;
+    color: #666;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.form-group textarea {
+    resize: vertical;
+    height: 150px;
+}
+.form-group button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.form-group button:hover {
+    background-color: #0056b3;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 5px solid #ab0606ce;
+}
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
+}
+.footer-section h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+.footer-section p, .footer-section a {
+    color: #ccc;
+    text-decoration: none;
+    line-height: 1.6;
+}
+.footer-section a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.social-icons a:hover {
+    color: #007bff;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+    font-size: 0.9em;
+}
+.about-us {
+    padding: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    background: scroll;
+    background-color: #7a7676;
+}
+
+.about-us h1 {
+    margin-top: 0;
+    color: #503d3d;
+}
+.about-us h3 {
+    margin-top: 4px;
+    color: #503d3d;
+}    
+
+.about-us p {
+    margin-bottom: 20px;
+}
+
+.about-us .highlight {
+    font-weight: bold;
+    color: #333;
+}
