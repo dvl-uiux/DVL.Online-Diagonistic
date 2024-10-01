@@ -132,19 +132,13 @@ form .form-group.gender-group input[type="radio"]:checked + label {
 }
 
 form .form-row {
-    position: relative;
-    display: flex
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    display: flex;
 }
 
 form .form-row .form-group {
     flex: 1;
-    margin: 25px 10px;
-    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
